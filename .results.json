@@ -1,0 +1,54 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 0,
+    "pending": 0,
+    "failures": 2,
+    "start": "2019-05-28T17:37:56.334Z",
+    "end": "2019-05-28T17:37:56.348Z",
+    "duration": 14
+  },
+  "tests": [
+    {
+      "title": "logs the result of calling helloFlatiron()",
+      "fullTitle": "lib logs the result of calling helloFlatiron()",
+      "duration": 4,
+      "err": {
+        "stack": "Error: Invalid Chai property: _his. Did you mean \"is\"?\n    at Object.proxyGetter [as get] (/mnt/c/Users/bteng/code/labs/node-js-fix-the-dependencies-dumbo-web-071618/node_modules/chai/lib/chai/utils/proxify.js:75:17)\n    at Proxy.assertWith (/mnt/c/Users/bteng/code/labs/node-js-fix-the-dependencies-dumbo-web-071618/node_modules/chai-spies/lib/spy.js:283:30)\n    at Proxy.chainableMethodWrapper (/mnt/c/Users/bteng/code/labs/node-js-fix-the-dependencies-dumbo-web-071618/node_modules/chai/lib/chai/utils/addChainableMethod.js:113:49)\n    at context.it (/mnt/c/Users/bteng/code/labs/node-js-fix-the-dependencies-dumbo-web-071618/test/index.js:21:41)\n    at callFn (/mnt/c/Users/bteng/code/labs/node-js-fix-the-dependencies-dumbo-web-071618/node_modules/mocha/lib/runnable.js:266:21)\n    at Test.Runnable.run (/mnt/c/Users/bteng/code/labs/node-js-fix-the-dependencies-dumbo-web-071618/node_modules/mocha/lib/runnable.js:259:7)\n    at Runner.runTest (/mnt/c/Users/bteng/code/labs/node-js-fix-the-dependencies-dumbo-web-071618/node_modules/mocha/lib/runner.js:387:10)\n    at /mnt/c/Users/bteng/code/labs/node-js-fix-the-dependencies-dumbo-web-071618/node_modules/mocha/lib/runner.js:470:12\n    at next (/mnt/c/Users/bteng/code/labs/node-js-fix-the-dependencies-dumbo-web-071618/node_modules/mocha/lib/runner.js:312:14)\n    at /mnt/c/Users/bteng/code/labs/node-js-fix-the-dependencies-dumbo-web-071618/node_modules/mocha/lib/runner.js:322:7\n    at next (/mnt/c/Users/bteng/code/labs/node-js-fix-the-dependencies-dumbo-web-071618/node_modules/mocha/lib/runner.js:257:23)\n    at Immediate.<anonymous> (/mnt/c/Users/bteng/code/labs/node-js-fix-the-dependencies-dumbo-web-071618/node_modules/mocha/lib/runner.js:289:5)\n    at processImmediate (timers.js:637:19)",
+        "message": "Invalid Chai property: _his. Did you mean \"is\"?"
+      }
+    },
+    {
+      "title": "logs some calls to five()",
+      "fullTitle": "lib logs some calls to five()",
+      "duration": 1,
+      "err": {
+        "stack": "Error: Invalid Chai property: _his. Did you mean \"is\"?\n    at Object.proxyGetter [as get] (/mnt/c/Users/bteng/code/labs/node-js-fix-the-dependencies-dumbo-web-071618/node_modules/chai/lib/chai/utils/proxify.js:75:17)\n    at Proxy.assertWith (/mnt/c/Users/bteng/code/labs/node-js-fix-the-dependencies-dumbo-web-071618/node_modules/chai-spies/lib/spy.js:283:30)\n    at Proxy.chainableMethodWrapper (/mnt/c/Users/bteng/code/labs/node-js-fix-the-dependencies-dumbo-web-071618/node_modules/chai/lib/chai/utils/addChainableMethod.js:113:49)\n    at context.it (/mnt/c/Users/bteng/code/labs/node-js-fix-the-dependencies-dumbo-web-071618/test/index.js:30:41)\n    at callFn (/mnt/c/Users/bteng/code/labs/node-js-fix-the-dependencies-dumbo-web-071618/node_modules/mocha/lib/runnable.js:266:21)\n    at Test.Runnable.run (/mnt/c/Users/bteng/code/labs/node-js-fix-the-dependencies-dumbo-web-071618/node_modules/mocha/lib/runnable.js:259:7)\n    at Runner.runTest (/mnt/c/Users/bteng/code/labs/node-js-fix-the-dependencies-dumbo-web-071618/node_modules/mocha/lib/runner.js:387:10)\n    at /mnt/c/Users/bteng/code/labs/node-js-fix-the-dependencies-dumbo-web-071618/node_modules/mocha/lib/runner.js:470:12\n    at next (/mnt/c/Users/bteng/code/labs/node-js-fix-the-dependencies-dumbo-web-071618/node_modules/mocha/lib/runner.js:312:14)\n    at /mnt/c/Users/bteng/code/labs/node-js-fix-the-dependencies-dumbo-web-071618/node_modules/mocha/lib/runner.js:322:7\n    at next (/mnt/c/Users/bteng/code/labs/node-js-fix-the-dependencies-dumbo-web-071618/node_modules/mocha/lib/runner.js:257:23)\n    at Immediate.<anonymous> (/mnt/c/Users/bteng/code/labs/node-js-fix-the-dependencies-dumbo-web-071618/node_modules/mocha/lib/runner.js:289:5)\n    at processImmediate (timers.js:637:19)",
+        "message": "Invalid Chai property: _his. Did you mean \"is\"?"
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "logs the result of calling helloFlatiron()",
+      "fullTitle": "lib logs the result of calling helloFlatiron()",
+      "duration": 4,
+      "err": {
+        "stack": "Error: Invalid Chai property: _his. Did you mean \"is\"?\n    at Object.proxyGetter [as get] (/mnt/c/Users/bteng/code/labs/node-js-fix-the-dependencies-dumbo-web-071618/node_modules/chai/lib/chai/utils/proxify.js:75:17)\n    at Proxy.assertWith (/mnt/c/Users/bteng/code/labs/node-js-fix-the-dependencies-dumbo-web-071618/node_modules/chai-spies/lib/spy.js:283:30)\n    at Proxy.chainableMethodWrapper (/mnt/c/Users/bteng/code/labs/node-js-fix-the-dependencies-dumbo-web-071618/node_modules/chai/lib/chai/utils/addChainableMethod.js:113:49)\n    at context.it (/mnt/c/Users/bteng/code/labs/node-js-fix-the-dependencies-dumbo-web-071618/test/index.js:21:41)\n    at callFn (/mnt/c/Users/bteng/code/labs/node-js-fix-the-dependencies-dumbo-web-071618/node_modules/mocha/lib/runnable.js:266:21)\n    at Test.Runnable.run (/mnt/c/Users/bteng/code/labs/node-js-fix-the-dependencies-dumbo-web-071618/node_modules/mocha/lib/runnable.js:259:7)\n    at Runner.runTest (/mnt/c/Users/bteng/code/labs/node-js-fix-the-dependencies-dumbo-web-071618/node_modules/mocha/lib/runner.js:387:10)\n    at /mnt/c/Users/bteng/code/labs/node-js-fix-the-dependencies-dumbo-web-071618/node_modules/mocha/lib/runner.js:470:12\n    at next (/mnt/c/Users/bteng/code/labs/node-js-fix-the-dependencies-dumbo-web-071618/node_modules/mocha/lib/runner.js:312:14)\n    at /mnt/c/Users/bteng/code/labs/node-js-fix-the-dependencies-dumbo-web-071618/node_modules/mocha/lib/runner.js:322:7\n    at next (/mnt/c/Users/bteng/code/labs/node-js-fix-the-dependencies-dumbo-web-071618/node_modules/mocha/lib/runner.js:257:23)\n    at Immediate.<anonymous> (/mnt/c/Users/bteng/code/labs/node-js-fix-the-dependencies-dumbo-web-071618/node_modules/mocha/lib/runner.js:289:5)\n    at processImmediate (timers.js:637:19)",
+        "message": "Invalid Chai property: _his. Did you mean \"is\"?"
+      }
+    },
+    {
+      "title": "logs some calls to five()",
+      "fullTitle": "lib logs some calls to five()",
+      "duration": 1,
+      "err": {
+        "stack": "Error: Invalid Chai property: _his. Did you mean \"is\"?\n    at Object.proxyGetter [as get] (/mnt/c/Users/bteng/code/labs/node-js-fix-the-dependencies-dumbo-web-071618/node_modules/chai/lib/chai/utils/proxify.js:75:17)\n    at Proxy.assertWith (/mnt/c/Users/bteng/code/labs/node-js-fix-the-dependencies-dumbo-web-071618/node_modules/chai-spies/lib/spy.js:283:30)\n    at Proxy.chainableMethodWrapper (/mnt/c/Users/bteng/code/labs/node-js-fix-the-dependencies-dumbo-web-071618/node_modules/chai/lib/chai/utils/addChainableMethod.js:113:49)\n    at context.it (/mnt/c/Users/bteng/code/labs/node-js-fix-the-dependencies-dumbo-web-071618/test/index.js:30:41)\n    at callFn (/mnt/c/Users/bteng/code/labs/node-js-fix-the-dependencies-dumbo-web-071618/node_modules/mocha/lib/runnable.js:266:21)\n    at Test.Runnable.run (/mnt/c/Users/bteng/code/labs/node-js-fix-the-dependencies-dumbo-web-071618/node_modules/mocha/lib/runnable.js:259:7)\n    at Runner.runTest (/mnt/c/Users/bteng/code/labs/node-js-fix-the-dependencies-dumbo-web-071618/node_modules/mocha/lib/runner.js:387:10)\n    at /mnt/c/Users/bteng/code/labs/node-js-fix-the-dependencies-dumbo-web-071618/node_modules/mocha/lib/runner.js:470:12\n    at next (/mnt/c/Users/bteng/code/labs/node-js-fix-the-dependencies-dumbo-web-071618/node_modules/mocha/lib/runner.js:312:14)\n    at /mnt/c/Users/bteng/code/labs/node-js-fix-the-dependencies-dumbo-web-071618/node_modules/mocha/lib/runner.js:322:7\n    at next (/mnt/c/Users/bteng/code/labs/node-js-fix-the-dependencies-dumbo-web-071618/node_modules/mocha/lib/runner.js:257:23)\n    at Immediate.<anonymous> (/mnt/c/Users/bteng/code/labs/node-js-fix-the-dependencies-dumbo-web-071618/node_modules/mocha/lib/runner.js:289:5)\n    at processImmediate (timers.js:637:19)",
+        "message": "Invalid Chai property: _his. Did you mean \"is\"?"
+      }
+    }
+  ],
+  "passes": []
+}
